@@ -1,16 +1,16 @@
-@echo 
+@echo  
 @echo START TIME: %time%
 
 @cd C:\Users\tacke\Desktop\test auto commit
-@echo 
+@echo  
 @git checkout backup
-@echo 
+@echo  
 @git add .
-@echo 
+@echo  
 @git commit -m "scheduled commit"
-@echo 
+@echo  
 @git push
 
-@echo 
+@echo  
 @echo END TIME: %time%
 pause
