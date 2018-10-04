@@ -1,15 +1,14 @@
 @echo.
 @echo START TIME: %time%
 
-@echo ^>^>cd C:\Users\tacke\Desktop\test auto commit
+@echo ^>^> cd C:\Users\tacke\Desktop\test auto commit
 @cd C:\Users\tacke\Desktop\test auto commit
-@echo ^>^>git checkout backup
+@echo ^>^> git checkout backup
 @git checkout backup
-@echo.
-@echo ^>^>git add .
+@echo ^>^> git add .
 @git add .
 @echo.
-@echo ^>^> auto commit
+@echo ^>^> git commit -m "scheduled commit"
 @git commit -m "scheduled commit"
 @git commit -m "scheduled commit"
 @echo.
