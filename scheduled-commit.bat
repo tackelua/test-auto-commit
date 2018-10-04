@@ -1,7 +1,7 @@
 @echo.
 @echo START TIME: %time%
 
-@echo \nC:\Users\tacke\Desktop\test auto commit
+@echo >> C:\Users\tacke\Desktop\test auto commit
 @cd C:\Users\tacke\Desktop\test auto commit
 @echo.
 @git checkout backup
